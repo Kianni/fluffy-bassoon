@@ -36,4 +36,4 @@ jobs:
       run: |
         export DATABASE_URL='sqlite:///database.db'
         pipenv shell
-        python test.py
+        pipenv run python test.py
